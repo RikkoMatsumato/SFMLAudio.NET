@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -38,6 +38,7 @@ namespace SFMLAudioNETExample
         private static extern void sfMusic_setLoop(IntPtr Music, bool Loop);
         static void Main(string[] args)
         {
+            Console.Title = "SFMLAudioNETExample by RiritoXXL";
             IntPtr music = sfMusic_createFromFile(@"ODDNUMBER.mp3");
             if(music.ToInt64() == 0)
             {
