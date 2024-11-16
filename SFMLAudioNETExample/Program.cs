@@ -40,10 +40,12 @@ namespace SFMLAudioNETExample
         static void Main(string[] args)
         {
             Console.Title = "SFMLAudioNETExample by RiritoXXL";
-            IntPtr music = sfMusic_createFromFile(@"ODDNUMBER.mp3");
+            Console.WriteLine("Please Write You're Music Folder and Filename:");
+            string MP3orAnyFilename_Input = Console.ReadLine();
+            IntPtr music = sfMusic_createFromFile(MP3orAnyFilename_Input);
             if(music.ToInt64() == 0)
             {
-                Console.WriteLine("Not Founded Music(ODDNUMBER.mp3");
+                Console.WriteLine("Not Founded Music");
             }
             else
             {
