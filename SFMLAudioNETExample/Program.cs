@@ -1,3 +1,4 @@
+using Microsoft.VisualBasic.Devices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -50,7 +51,16 @@ namespace SFMLAudioNETExample
                 sfMusic_play(music);
                 while (true)
                 {
-                    Thread.Sleep(2000);
+                    if (Console.KeyAvailable)
+                    {
+                        if(Console.ReadKey(true).Key == ConsoleKey.M)
+                        {
+                            sfMusic_stop(music);
+                            Environment.Exit(122);
+                        }
+                    }
+                    Thread.Sleep(200);
+                    
                 }
             }
         }
