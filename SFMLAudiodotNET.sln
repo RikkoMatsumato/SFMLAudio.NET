@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFMLAudiodotNET", "SFMLAudiodotNET\SFMLAudiodotNET.csproj", "{7D123E1F-385A-40AE-A43D-FFA2D04736CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D123E1F-385A-40AE-A43D-FFA2D04736CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D123E1F-385A-40AE-A43D-FFA2D04736CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D123E1F-385A-40AE-A43D-FFA2D04736CE}.Debug|x64.ActiveCfg = Debug|x64
+		{7D123E1F-385A-40AE-A43D-FFA2D04736CE}.Debug|x64.Build.0 = Debug|x64
+		{7D123E1F-385A-40AE-A43D-FFA2D04736CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D123E1F-385A-40AE-A43D-FFA2D04736CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D123E1F-385A-40AE-A43D-FFA2D04736CE}.Release|x64.ActiveCfg = Release|x64
+		{7D123E1F-385A-40AE-A43D-FFA2D04736CE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
